@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screen: TransactionDetails/MsgPlaceBetSlip matches snapshot 1`] = `
+<div>
+  <p
+    className="MuiTypography-root MuiTypography-body1"
+  >
+    <div
+      components={
+        Array [
+          <Name
+            address="address"
+            name="address"
+          />,
+          <b />,
+        ]
+      }
+      i18nKey="message_contents:txPlaceBetSlipContentOne"
+      id="message_contents:txPlaceBetSlipContentOne"
+      values={{}}
+    />
+  </p>
+  <div
+    className="makeStyles-placebetslip"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      <div
+        components={
+          Array [
+            <b />,
+          ]
+        }
+        i18nKey="message_contents:txPlaceBetSlipContentTwo"
+        id="message_contents:txPlaceBetSlipContentTwo"
+        values={
+          Object {
+            "uid": "1234",
+            "amount": "19 SGE",
+            "ticket": "test_ticket_1",
+          }
+        }
+      />
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      <div
+        components={
+          Array [
+            <b />,
+          ]
+        }
+        i18nKey="message_contents:txMultisendContentTwo"
+        id="message_contents:txMultisendContentTwo"
+        values={
+          Object {
+            "uid": "4321",
+            "amount": "91 SGE",
+            "ticket": "test_ticket_2",
+          }
+        }
+      />
+    </p>
+  </div>
+</div>
+`;

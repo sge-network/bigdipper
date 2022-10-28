@@ -1,0 +1,11 @@
+{
+  "maintainer": {
+    "name": "Sge Network",
+    "url": "https://sgenetwork.io/"
+  },
+  "github": {
+    "reportIssue": "https://github.com/sge-network/bigdipper/issues"
+  },
+  "previewImage": "https://sge-logo-assets.testnet.sgenetwork.io/sge-logo.png",
+  "version": "base-v2.1.0"
+}
