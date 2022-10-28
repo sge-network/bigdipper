@@ -1,0 +1,28 @@
+{
+  "title": "Sge Network Mainnet Block Explorer",
+  "network": "sge-network-1",
+  "icon": "https://sge-logo-assets.testnet.sgenetwork.io/favicon.png",
+  "logo": {
+    "default": "https://sge-logo-assets.testnet.sgenetwork.io/sge-logo.png"
+  },
+  "prefix": {
+    "consensus": "sgevalcons",
+    "validator": "sgevaloper",
+    "account": "sge"
+  },
+  "genesis": {
+    "time": "2022-05-05T10:30:00",
+    "height": 1
+  },
+  "primaryTokenUnit": "usge",
+  "votingPowerTokenUnit": "usge",
+  "tokenUnits": {
+    "usge": {
+      "display": "SGE",
+      "exponent": 6
+    }
+  },
+  "extra": {
+    "profile": true
+  }
+}
