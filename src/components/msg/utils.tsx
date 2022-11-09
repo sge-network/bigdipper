@@ -410,67 +410,67 @@ const getDataByType = (type: string) => {
     '/sgenetwork.sge.bet.MsgPlaceBet': {
       model: MODELS.MsgPlaceBet,
       content: COMPONENTS.PlaceBet,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txPlaceBetLabel',
     },
     '/sgenetwork.sge.bet.MsgPlaceBetSlip': {
       model: MODELS.MsgPlaceBetSlip,
       content: COMPONENTS.PlaceBetSlip,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txPlaceBetSlipLabel',
     },
     '/sgenetwork.sge.bet.MsgSettleBet': {
       model: MODELS.MsgSettleBet,
       content: COMPONENTS.SettleBet,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txSettleBetLabel',
     },
     '/sgenetwork.sge.bet.MsgSettleBetBulk': {
       model: MODELS.MsgSettleBetBulk,
       content: COMPONENTS.SettleBetBulk,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txSettleBetBulkLabel',
     },
     '/sgenetwork.sge.dvm.MsgMutation': {
       model: MODELS.MsgMutation,
       content: COMPONENTS.Mutation,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txMutationLabel',
     },
     '/sgenetwork.sge.incentivependulum.MsgWithdrawDelegatorIncentivesRequest': {
       model: MODELS.MsgWithdrawDelegatorIncentive,
       content: COMPONENTS.WithdrawDelegatorIncentive,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txWithdrawDelegatorIncentiveLabel',
     },
     '/sgenetwork.sge.incentivependulum.MsgWithdrawValidatorIncentivesRequest': {
       model: MODELS.MsgWithdrawValidatorIncentive,
       content: COMPONENTS.WithdrawValidatorIncentive,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txWithdrawValidatorIncentiveLabel',
     },
-    '/sgenetwork.sge.sportevent.MsgAddEvent': {
+    '/sgenetwork.sge.sportevent.MsgAddSportEvent': {
       model: MODELS.MsgAddEvent,
       content: COMPONENTS.AddEvent,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txAddEventLabel',
     },
-    '/sgenetwork.sge.sportevent.MsgUpdateEvent': {
+    '/sgenetwork.sge.sportevent.MsgUpdateSportEvent': {
       model: MODELS.MsgUpdateEvent,
       content: COMPONENTS.UpdateEvent,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txUpdateEventLabel',
     },
-    '/sgenetwork.sge.sportevent.MsgResolveEvent': {
+    '/sgenetwork.sge.sportevent.MsgResolveSportEvent': {
       model: MODELS.MsgResolveEvent,
       content: COMPONENTS.ResolveEvent,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txResolveEventLabel',
     },
     '/sgenetwork.sge.strategicreserve.MsgDepositToSRRequest': {
       model: MODELS.MsgDepositToSR,
       content: COMPONENTS.DepositToSR,
-      tagTheme: 'five',
+      tagTheme: 'two',
       tagDisplay: 'txDepositToSRLabel',
     },
   };
